@@ -13,7 +13,7 @@ html{
     scroll-behavior: smooth;
 }
 .home{
-     background-image:url(/Logos/modern-office-design-with-computer-equipment-inside-generated-by-ai.jpg) ;
+     background-image:url(modern-office-design-with-computer-equipment-inside-generated-by-ai.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -308,4 +308,5 @@ gap: 10px;
     .social_icons {
         justify-content: center;
     }
+
 }
