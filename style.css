@@ -57,7 +57,7 @@ h2{
     z-index: 2;
 }
 .logo{
-    width: 10%;
+    width: 7%;
 }
 nav{
     padding-top: 10px;
@@ -218,7 +218,7 @@ color:#ffffff;
 }
 
 .footer_logo {
-    width: 130px;
+    width: 90px;
     margin-bottom: 10px;
     border-radius: 6px;
 }
@@ -310,3 +310,4 @@ gap: 10px;
     }
 
 }
+
