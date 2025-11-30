@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="contactstyle.css">
+</head>
+<body>
+    <section>
+        <div class="contact-container">
+
+    <div class="left-side">
+        <h1> Let's Work <br>Together</h1>
+         
+<form class="contact-form" onsubmit="return validateForm()">
+
+    <label for="name">What's your name?</label>
+    <input type="text" placeholder="Type your full name" id="name">
+    <span id="nameError" class="error"></span>
+
+    <label for="mail">What's your email address?</label>
+    <input type="email" placeholder="example@email.com" id="mail">
+    <span id="emailError" class="error"></span>
+
+    <label for="phone">What's your phone number?</label>
+    <input type="text" id="phone" placeholder="+92 300 000000">
+    <span id="phoneError" class="error"></span>
+
+    <label for="OG">What's your company/organization name?</label>
+    <input type="text" placeholder="Type your company name" id="OG">
+    <span id="OGError" class="error"></span>
+
+    <label for="budget">What have you budgeted for this project?</label>
+    <select id="budget">
+        <option>Select budget</option>
+        <option>$100 - $500</option>
+        <option>$500 - $1000</option>
+        <option>$1000+</option>
+    </select>
+    <span id="budgetError" class="error"></span>
+
+    <button type="submit" id="sub">Send Request</button>
+
+    <p id="success"></p>
+</form>
+
+    </div>
+   
+
+    </div>
+
+</div>
+</section>
+<section class="help-section">
+  <h2>We’re here to help</h2>
+
+  <div class="help-block">
+    <h3>Already a client?</h3>
+    <p>The fastest way to get support or project updates is through our client portal or by emailing our team directly.</p>
+
+    <div class="help-items">
+      <div class="help-item">
+        <h4>Project Updates</h4>
+        <p>Track progress, request revisions, and manage deliverables through your client dashboard.</p>
+      </div>
+
+      <div class="help-item">
+        <h4>Technical Support</h4>
+        <p>Facing issues with your website, software, or deployment? Our support team is available 24/7 to assist.</p>
+      </div>
+
+      <div class="help-item">
+        <h4>Billing Assistance</h4>
+        <p>Questions about invoices or payment schedules? Contact our billing support team to resolve concerns quickly.</p>
+      </div>
+
+      <div class="help-item">
+        <h4>General Queries</h4>
+        <p>Have a question about our services or a new idea? Feel free to reach out anytime.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="not-member">
+    <h3>Not a client yet?</h3>
+    <p>We’d love to work with you. Reach out and our team will respond within 24 hours.</p>
+    <p>Email us at: <a href="mailto:hello@blackoakdigital.com">hello@blackoakdigital.com</a></p>
+  </div>
+</section>
+</body>
+<script src="contact.js"></script>
+</html>
